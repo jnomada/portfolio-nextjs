@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 2px solid #9bd0ff;
+}
+
+.links ul {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.link {
+  list-style: none;
+}

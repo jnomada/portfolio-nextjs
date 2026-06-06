@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 2px solid #9bd0ff;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  color: #9bd0ff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.links ul {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.link {
+  list-style: none;
+}

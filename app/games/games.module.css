@@ -1,0 +1,17 @@
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.screenshotGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

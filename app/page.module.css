@@ -1,0 +1,14 @@
+.links .link {
+  margin-right: 15px;
+}
+.seeMoreButton {
+  background-color: #9bd0ff;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+ 
+}

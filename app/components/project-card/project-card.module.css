@@ -1,0 +1,11 @@
+.projectCard {
+  background-color: rgb(34, 33, 32);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projectCard .thumbnail {
+  width: 400px;
+  height: 200px;
+}
