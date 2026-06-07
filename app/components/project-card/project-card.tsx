@@ -39,7 +39,7 @@ export default function ProjectCard({
       <p>Made while working at: {company}</p>
       <p>
         <strong>
-          <Link target="_blank" href={url}>More info</Link>
+          <a target="_blank" href={url}>More info</a>
         </strong>
       </p>
     </article>

@@ -40,7 +40,7 @@ export const projects: Project[] = [
     featured: false,
     professional: false,
     description: "Personal portfolio built with Next.js.",
-    thumbnail: "/img/dno-logo.png",
+    thumbnail: "/img/portfolio.png",
     alt: "Devil's Night Out logo",
     url: "https://jsealey.com",
     externalUrl: "https://jsealey.com",
