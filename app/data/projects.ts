@@ -44,7 +44,7 @@ export const projects: Project[] = [
     alt: "Devil's Night Out logo",
     url: "https://jsealey.com",
     externalUrl: "https://jsealey.com",
-    technologies: ["Nextjs", "React", "CSS modules"],
+    technologies: ["Nextjs", "React", "CSS modules", "Typescript"],
     company: "Personal project"
   },
   {
