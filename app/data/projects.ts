@@ -8,8 +8,8 @@ export interface Project {
   featured: boolean;
   professional: boolean,
   description: string;
-  thumbnail?: string;
-  url?: string;
+  thumbnail: string;
+  url: string;
   alt: string;
   externalUrl: string,
   technologies: string[],

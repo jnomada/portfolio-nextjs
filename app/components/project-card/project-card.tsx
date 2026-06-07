@@ -31,7 +31,6 @@ export default function ProjectCard({
           alt={alt}
           width={250}
           height={200}
-          priority
       />
       <p>
         <strong>Technologies used:</strong> {technologies.join(", ")}

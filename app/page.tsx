@@ -38,7 +38,6 @@ export default function Home() {
             description={project.description}
             thumbnail={project.thumbnail}
             alt={project.alt}
-            className={styles.project}
             url={project.url}
             technologies={project.technologies}
             company={project.company}
