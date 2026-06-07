@@ -5,7 +5,12 @@
   margin-bottom: 20px;
 }
 
-.projectCard .thumbnail {
-  width: 400px;
-  height: 200px;
+.projectCard .title {
+  color: #c38bf5;
 }
+
+.projectCard .thumbnail {
+  width: 100%;
+  height: auto;
+}
+

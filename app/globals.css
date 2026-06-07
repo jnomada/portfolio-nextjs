@@ -1,11 +1,11 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #19161a;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #19161a;
     --foreground: #ededed;
   }
 }
@@ -37,22 +37,22 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
- 
-}
-
 h1 {
   color: #9bd0ff;
   margin-bottom: 20px;
 }
 
 h2 {
-  color: #2f89d8;
+  color: #c38bf5;
   margin-bottom: 10px;
 }
 
 h3 {
   margin-bottom: 10px;
+}
+
+h4 {
+  color: #c38bf5;
 }
 
 p {
@@ -73,8 +73,8 @@ main {
 }
 
 section {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 a {
@@ -88,6 +88,7 @@ li {
 
 iframe {
   border: none;
+  width: 100%;
 }
 
 .myphoto {

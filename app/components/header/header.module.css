@@ -25,4 +25,41 @@
 
 .link {
   list-style: none;
+  font-weight: bold;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socialsIcon {
+  padding: 0 10px;
+}
+
+@media (max-width: 820px) {
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .links ul {
+    gap: 15px;
+  }
+
+  .socialsIcon img {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .links ul {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 20px;
+  }
+
+  .socialsIcon img {
+    margin: 10px 0;
+  }
 }

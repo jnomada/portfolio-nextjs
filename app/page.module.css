@@ -1,12 +1,18 @@
 .links .link {
   margin-right: 15px;
 }
+
 .seeMoreButton {
-  background-color: #9bd0ff;
+  background-color: #7919ce;
   color: #fff;
   width: 100%;
   padding: 15px;
   border-radius: 10px;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+.seeMoreButton:hover {
+  background-color: #9035e0;
 }
 
 @media (max-width: 600px) {

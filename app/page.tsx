@@ -40,6 +40,8 @@ export default function Home() {
             alt={project.alt}
             className={styles.project}
             url={project.url}
+            technologies={project.technologies}
+            company={project.company}
           />
         )}
       </section>
@@ -59,6 +61,8 @@ export default function Home() {
             thumbnail={project.thumbnail}
             alt={project.alt}
             url={project.url}
+            technologies={project.technologies}
+            company={project.company}
           />
         )}
       </section>

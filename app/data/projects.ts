@@ -11,7 +11,9 @@ export interface Project {
   thumbnail?: string;
   url?: string;
   alt: string;
-  externalUrl: string
+  externalUrl: string,
+  technologies: string[],
+  company: string
 }
 
 export const projects: Project[] = [
@@ -25,8 +27,10 @@ export const projects: Project[] = [
     description: "VR survival horror game developed in Unity.",
     thumbnail: "/img/dno-logo.png",
     alt: "Devil's Night Out logo",
-    url: "https://jnomada.itch.io/devils-night-out",
-    externalUrl: "https://jnomada.itch.io/devils-night-out"
+    url: "/games",
+    externalUrl: "https://jnomada.itch.io/devils-night-out",
+    technologies: ["Unity" , "C#", "XR Interaction Toolkit", "Blender"],
+    company: "Personal project"
   },
   {
     order: 8,
@@ -39,7 +43,9 @@ export const projects: Project[] = [
     thumbnail: "/img/dno-logo.png",
     alt: "Devil's Night Out logo",
     url: "https://jsealey.com",
-    externalUrl: "https://jsealey.com"
+    externalUrl: "https://jsealey.com",
+    technologies: ["Nextjs", "React", "CSS modules"],
+    company: "Personal project"
   },
   {
     order: 2,
@@ -52,7 +58,9 @@ export const projects: Project[] = [
     thumbnail: "/img/euromelanoma.png",
     alt: "Euromelanoma.eu screentshot",
     url: "https://www.euromelanoma.eu",
-    externalUrl: "https://www.euromelanoma.eu"
+    externalUrl: "https://www.euromelanoma.eu",
+    technologies: ["ApostropheCMS", "Nodejs", "MongoDB", "Nunjucks", "Javascript", "jQuery", "LESS", "SCSS", "CSS", "HTML"],
+    company: "Swiss4ward"
   },
   {
     order: 3,
@@ -65,7 +73,9 @@ export const projects: Project[] = [
     thumbnail: "/img/pros.png",
     alt: "Patient Reported Outcomes (PROS) screenshot",
     url: "https://www.patient-reported-outcomes.com",
-    externalUrl: "https://www.patient-reported-outcomes.com"
+    externalUrl: "https://www.patient-reported-outcomes.com",
+    technologies: ["ApostropheCMS", "Nodejs", "MongoDB", "Nunjucks", "Javascript", "jQuery", "LESS", "SCSS", "CSS", "HTML"],
+    company: "Swiss4ward"
   },
   {
     order: 4,
@@ -78,7 +88,9 @@ export const projects: Project[] = [
     thumbnail: "/img/pchc.png",
     alt: "PCHC.eu screenshot",
     url: "https://www.pchc.eu",
-    externalUrl: "https://www.pchc.eu"
+    externalUrl: "https://www.pchc.eu",
+    technologies: ["ApostropheCMS", "Nodejs", "MongoDB", "Nunjucks", "Javascript", "jQuery", "LESS", "SCSS", "CSS", "HTML"],
+    company: "Swiss4ward"
   },
   {
     order: 5,
@@ -91,6 +103,8 @@ export const projects: Project[] = [
     thumbnail: "/img/haeutejournal.png",
     alt: "Haeutejournal screenshot",
     externalUrl: "https://www.haeutejournal.de/",
-    url: "https://www.haeutejournal.de/"
+    url: "https://www.haeutejournal.de/",
+    technologies: ["ApostropheCMS", "Nodejs", "MongoDB", "Nunjucks", "Javascript", "jQuery", "LESS", "SCSS", "CSS", "HTML"],
+    company: "Swiss4ward"
   }
 ];

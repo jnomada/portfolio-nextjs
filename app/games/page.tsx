@@ -47,7 +47,7 @@ export default function GameProjects() {
         <section>
           <h3>Project Details</h3>
           <ul>
-            <li>Engine: Unity</li>
+            <li>Technologies: Unity, C#, Blender, Github</li>
             <li>Platform: Virtual Reality (PCVR)</li>
             <li>Genre: Survival Horror</li>
             <li>Role: Solo Developer</li>
@@ -87,7 +87,12 @@ export default function GameProjects() {
         </section>
         <section>
           <h3>Download the demo</h3>
-          <iframe className={styles.video} src="https://itch.io/embed/4629449?bg_color=452a2a&amp;fg_color=ffffff&amp;link_color=c60e0e&amp;border_color=452a2a" width="552" height="167"><a href="https://jnomada.itch.io/devils-night-out">Devil's Night Out (VR) by jnomada</a></iframe>
+          <iframe
+            className={styles.video}
+            src="https://itch.io/embed/4629449?bg_color=452a2a&fg_color=ffffff&link_color=c60e0e&border_color=452a2a"
+            width="552"
+            height="167"
+          />
         </section>
       </article>
     </>

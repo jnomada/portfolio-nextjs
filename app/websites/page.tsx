@@ -19,6 +19,8 @@ const websites = projects
             thumbnail={project.thumbnail}
             alt={project.alt}
             url={project.url}
+            technologies={project.technologies}
+            company={project.company}
           />
         )}
       </section>

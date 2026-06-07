@@ -6,8 +6,10 @@ type ProjectCardProps = {
   title: string,
   description: string,
   thumbnail: string,
-  alt?: string,
-  url?: string
+  alt: string,
+  url: string,
+  technologies: string[],
+  company: string
 }
 
 export default function ProjectCard({
@@ -15,11 +17,13 @@ export default function ProjectCard({
   description,
   thumbnail,
   alt,
-  url
+  url,
+  technologies,
+  company
 }: ProjectCardProps) {
   return (
     <article className={styles.projectCard}>
-      <h4>{title}</h4>
+      <h3 className={styles.title}>{title}</h3>
       <p>{description}</p>
       <Image 
           className={styles.thumbnail}
@@ -29,7 +33,15 @@ export default function ProjectCard({
           height={200}
           priority
       />
-      <p><Link href={url}>More info</Link></p>
+      <p>
+        <strong>Technologies used:</strong> {technologies.join(", ")}
+      </p>
+      <p>Made while working at: {company}</p>
+      <p>
+        <strong>
+          <Link target="_blank" href={url}>More info</Link>
+        </strong>
+      </p>
     </article>
   );
 }
